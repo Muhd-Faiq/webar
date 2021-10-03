@@ -35,13 +35,11 @@
     <title>Web AR</title>
   </head>
   <body>
-    <div class="container">
+    <!-- <div class="container">
     
-      <!-- Modal -->
       <div class="modal fade" id="myModal" role="dialog" >
         <div class="modal-dialog">
         
-          <!-- Modal content-->
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -58,7 +56,7 @@
           
         </div>
       </div>
-    </div>
+    </div> -->
     
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
@@ -84,15 +82,15 @@
     <a id="download-link" style="display:none"></a>
   
     <script>
-//   $(document).ready(function(){
-//     alert('If you are using mobile browser, please change to desktop site on setting');
+  $(document).ready(function(){
+    alert('If you are using mobile browser, please change to desktop site on setting');
     
-//  });
+ });
 
-$(window).load(function()
-{
-    $('#myModal').modal('show');
-});
+// $(window).load(function()
+// {
+//     $('#myModal').modal('show');
+// });
 
 
   function resizeCanvas(origCanvas, width, height) {
