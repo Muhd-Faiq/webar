@@ -1,23 +1,14 @@
 .App {
   text-align: center;
 
-  /* a-scene {
+  a-scene {
     position: absolute;
     top: 0;
     left: 0;
     width: 10%;
     height: 10%;
     overflow: hidden;
-  } */
-}
-
-.try{
-  position: absolute;
-    top: 0;
-    left: 0;
-    width: 10%;
-    height: 10%;
-    overflow: hidden;
+  }
 }
 
 .App-logo {
